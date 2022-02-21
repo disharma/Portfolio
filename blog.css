@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+.blogcontainer{
+    margin-left: 60px;
+    margin-top: 60px;
+    font-family: 'Zilla Slab', serif;
+}
+.blogitem{
+    padding: 37px 0;
+    font-family: 'Roboto Slab', serif;
+}
+.blogitem h2{
+    padding-bottom: 13px;
+}
+.blogitem h3{
+    padding: 10px 0;
+}
+.blogitem ul{
+    padding: 5px 27px;
+}
+.btn{
+    padding: 7px;
+    border-radius: 8px;
+    background-color: cadetblue;
+    font-weight: bolder;
+    margin: 14px 0;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+}
+.btn:hover{
+    color: cadetblue;
+    background-color: whitesmoke;
+}
+@media screen and (max-width:450px){
+    .blogcontainer{
+        font-size: 13px;
+    }
+    .btn{
+        font-size: 11px;
+    }
+}

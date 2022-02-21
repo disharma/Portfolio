@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+.introcontainer{
+    margin-left: 60px;
+    margin-top: 60px;
+    font-family: 'Zilla Slab', serif;
+}
+.aboutme p{
+    font-family: 'Roboto Slab', serif;
+    margin: 10px 0;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+.skill{
+    width: 250px;
+    height: 5px;
+    background-color: teal;
+    border: 1px solid black;
+    margin: 0 10px;
+}
+.s100{
+    width: 250px;
+    background-color: #367588;
+}
+.s75{
+    width: 200px;
+    background-color: #73C2FB;
+}
+.s50{
+    width: 150px;
+    background-color: #0077c0;
+}
+.s25{
+    width: 100px;
+    background-color: #5D8AA8;
+}

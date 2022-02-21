@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(217, 250, 248);;
+}
+.sidebar{
+    background-color: #4bb3cb;
+    /* width: 225px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebarGo{
+    transform: translate(-270px, 0);
+    position: absolute;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 24px;
+    padding: 20px 0;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: rgb(217, 250, 248);
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    width: 80vw;
+    height: 60vh;
+    /* background-color: rgb(157, 204, 255); */
+    margin: 48px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+.hello{
+    font-size: 45px;
+    font-family: 'Roboto Slab', serif;
+}
+.name{
+    font-size: 40px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+.buttons button{
+    padding: 7px;
+    border-radius: 8px;
+    background-color: cadetblue;
+    font-weight: bolder;
+    margin: 0 6px;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: cadetblue;
+    background-color: whitesmoke;
+}
+.devpic img{
+  height:60vh;
+}
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+.cross{
+    margin-left: 144px;
+}
+@media screen and (max-width:850px){
+    /* .sidebar{
+        transform: translate(-270px, 0);
+        position: absolute;
+    } */
+    .devpic{
+        display: none;
+    }
+    .infocontainer{
+        margin: 4px auto;
+    }
+}
+@media screen and (max-width:450px){
+    .hello{
+        font-size: 36px;
+    }
+    .name{
+        font-size: 30px;
+    }
+    .about{
+        font-size: 21px;
+    }
+    .buttons button{
+        font-size: 11px;
+        margin: 9px 7px;
+    }
+    .sidebar nav li{
+        font-size: 19px;
+    }
+    .cross{
+        margin-left: 121px;
+    }
+}
